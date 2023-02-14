@@ -1,0 +1,159 @@
+
+body {
+    font-family: Roboto;
+}
+
+ul {
+    list-style:none;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: Roboto;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    max-width: 120px;
+}
+
+.header {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+#header-image {
+    width: 425px;
+    height: 200px;
+    flex: 1;
+    max-width: 600px;
+}
+
+.Logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    justify-content: flex-end;  
+    gap: 16px;
+}
+
+.Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 425px;
+    height: 200px;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext, .subcall {
+    font-size: 18px;
+    color: #E5E7E5;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.pieces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    flex-wrap: 1;
+    max-width: 200px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 700px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 350px;
+}
+
+.call {
+    display: flex;
+    padding: 50px;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoaction {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7E5;
+}
+
